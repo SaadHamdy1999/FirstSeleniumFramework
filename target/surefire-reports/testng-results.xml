@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="13" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-06T10:08:04 EET" name="nopcommerce regression suite" finished-at="2022-04-06T10:08:31 EET" duration-ms="27156">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T10:08:04 EET" name="Regression Test" finished-at="2022-04-06T10:08:31 EET" duration-ms="27156">
+      <class name="tests.WishListTest">
+        <test-method signature="UserCanSearchUsingAutoComplete()[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:23 EET" name="UserCanSearchUsingAutoComplete" finished-at="2022-04-06T10:08:28 EET" duration-ms="4791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchUsingAutoComplete -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:28 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:28 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchUsingAutoComplete status=SUCCESS method=WishListTest.UserCanSearchUsingAutoComplete()[pri:0, instance:tests.WishListTest@50eac852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="AddToWishList()[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:28 EET" name="AddToWishList" finished-at="2022-04-06T10:08:30 EET" depends-on-methods="tests.WishListTest.UserCanSearchUsingAutoComplete" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToWishList -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:30 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:30 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToWishList status=SUCCESS method=WishListTest.AddToWishList()[pri:0, instance:tests.WishListTest@50eac852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="removeProductFromWishList()[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:30 EET" name="removeProductFromWishList" finished-at="2022-04-06T10:08:31 EET" depends-on-methods="tests.WishListTest.AddToWishList" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromWishList -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.WishListTest@50eac852]" started-at="2022-04-06T10:08:31 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:31 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromWishList status=SUCCESS method=WishListTest.removeProductFromWishList()[pri:0, instance:tests.WishListTest@50eac852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+      </class> <!-- tests.WishListTest -->
+      <class name="tests.SearchProductUsingAutoComplete">
+        <test-method signature="UserCanSearchUsingAutoComplete()[pri:0, instance:tests.SearchProductUsingAutoComplete@61df66b6]" started-at="2022-04-06T10:08:18 EET" name="UserCanSearchUsingAutoComplete" finished-at="2022-04-06T10:08:23 EET" duration-ms="4691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchUsingAutoComplete -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.SearchProductUsingAutoComplete@61df66b6]" started-at="2022-04-06T10:08:23 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:23 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchUsingAutoComplete status=SUCCESS method=SearchProductUsingAutoComplete.UserCanSearchUsingAutoComplete()[pri:0, instance:tests.SearchProductUsingAutoComplete@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+      </class> <!-- tests.SearchProductUsingAutoComplete -->
+      <class name="tests.ContactUsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.ContactUsTest@3c407114]" started-at="2022-04-06T10:07:57 EET" name="setUp" finished-at="2022-04-06T10:08:04 EET" duration-ms="6253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactUs()[pri:0, instance:tests.ContactUsTest@3c407114]" started-at="2022-04-06T10:08:04 EET" name="contactUs" finished-at="2022-04-06T10:08:06 EET" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@3c407114]" started-at="2022-04-06T10:08:06 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactUs status=SUCCESS method=ContactUsTest.contactUs()[pri:0, instance:tests.ContactUsTest@3c407114] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AddProductToCompareTests">
+        <test-method signature="UserCanSearchForAppleUsingAutoComplete()[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:06 EET" name="UserCanSearchForAppleUsingAutoComplete" finished-at="2022-04-06T10:08:10 EET" duration-ms="4009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForAppleUsingAutoComplete -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:10 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:10 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchForAppleUsingAutoComplete status=SUCCESS method=AddProductToCompareTests.UserCanSearchForAppleUsingAutoComplete()[pri:0, instance:tests.AddProductToCompareTests@291ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="addAppleToComparison()[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:10 EET" name="addAppleToComparison" finished-at="2022-04-06T10:08:10 EET" depends-on-methods="tests.AddProductToCompareTests.UserCanSearchForAppleUsingAutoComplete" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAppleToComparison -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:10 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:10 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAppleToComparison status=SUCCESS method=AddProductToCompareTests.addAppleToComparison()[pri:0, instance:tests.AddProductToCompareTests@291ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="UserCanSearchForAsusUsingAutoComplete()[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:10 EET" name="UserCanSearchForAsusUsingAutoComplete" finished-at="2022-04-06T10:08:14 EET" depends-on-methods="tests.AddProductToCompareTests.addAppleToComparison" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchForAsusUsingAutoComplete -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:14 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:14 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchForAsusUsingAutoComplete status=SUCCESS method=AddProductToCompareTests.UserCanSearchForAsusUsingAutoComplete()[pri:0, instance:tests.AddProductToCompareTests@291ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="addAsusToComparison()[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:14 EET" name="addAsusToComparison" finished-at="2022-04-06T10:08:17 EET" depends-on-methods="tests.AddProductToCompareTests.UserCanSearchForAsusUsingAutoComplete" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAsusToComparison -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:17 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:17 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAsusToComparison status=SUCCESS method=AddProductToCompareTests.addAsusToComparison()[pri:0, instance:tests.AddProductToCompareTests@291ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+        <test-method signature="removeFromCompare()[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:17 EET" name="removeFromCompare" finished-at="2022-04-06T10:08:18 EET" depends-on-methods="tests.AddProductToCompareTests.addAsusToComparison" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCompare -->
+        <test-method is-config="true" signature="saveFailedTest(org.testng.ITestResult)[pri:0, instance:tests.AddProductToCompareTests@291ae]" started-at="2022-04-06T10:08:18 EET" name="saveFailedTest" finished-at="2022-04-06T10:08:18 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromCompare status=SUCCESS method=AddProductToCompareTests.removeFromCompare()[pri:0, instance:tests.AddProductToCompareTests@291ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveFailedTest -->
+      </class> <!-- tests.AddProductToCompareTests -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- nopcommerce regression suite -->
+</testng-results>

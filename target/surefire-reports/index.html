@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-nopcommerce_regression_suite" class="navigator-link">
+              <span class="suite-name border-passed">nopcommerce regression suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>F:\ITI\Automation Projects\BankingSystem\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-nopcommerce_regression_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-nopcommerce_regression_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-nopcommerce_regression_suite" class="hide-methods passed suite-nopcommerce_regression_suite"> (hide)</a> <!-- hide-methods passed suite-nopcommerce_regression_suite -->
+                      <a href="#" panel-name="suite-nopcommerce_regression_suite" class="show-methods passed suite-nopcommerce_regression_suite"> (show)</a> <!-- show-methods passed suite-nopcommerce_regression_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-nopcommerce_regression_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.WishListTest" class="method navigator-link" hash-for-method="AddToWishList">AddToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.AddProductToCompareTests" class="method navigator-link" hash-for-method="UserCanSearchForAppleUsingAutoComplete">UserCanSearchForAppleUsingAutoComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.AddProductToCompareTests" class="method navigator-link" hash-for-method="UserCanSearchForAsusUsingAutoComplete">UserCanSearchForAsusUsingAutoComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.SearchProductUsingAutoComplete" class="method navigator-link" hash-for-method="UserCanSearchUsingAutoComplete">UserCanSearchUsingAutoComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.WishListTest" class="method navigator-link" hash-for-method="UserCanSearchUsingAutoComplete">UserCanSearchUsingAutoComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.AddProductToCompareTests" class="method navigator-link" hash-for-method="addAppleToComparison">addAppleToComparison</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.AddProductToCompareTests" class="method navigator-link" hash-for-method="addAsusToComparison">addAsusToComparison</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.ContactUsTest" class="method navigator-link" hash-for-method="contactUs">contactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.AddProductToCompareTests" class="method navigator-link" hash-for-method="removeFromCompare">removeFromCompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_regression_suite" title="tests.WishListTest" class="method navigator-link" hash-for-method="removeProductFromWishList">removeProductFromWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-nopcommerce_regression_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-nopcommerce_regression_suite" class="panel nopcommerce_regression_suite">
+          <div class="suite-nopcommerce_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.WishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToWishList">
+                  </a> <!-- AddToWishList -->
+                  <span class="method-name">AddToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchUsingAutoComplete">
+                  </a> <!-- UserCanSearchUsingAutoComplete -->
+                  <span class="method-name">UserCanSearchUsingAutoComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromWishList">
+                  </a> <!-- removeProductFromWishList -->
+                  <span class="method-name">removeProductFromWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_regression_suite-class-passed -->
+          <div class="suite-nopcommerce_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchProductUsingAutoComplete</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchUsingAutoComplete">
+                  </a> <!-- UserCanSearchUsingAutoComplete -->
+                  <span class="method-name">UserCanSearchUsingAutoComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_regression_suite-class-passed -->
+          <div class="suite-nopcommerce_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProductToCompareTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchForAppleUsingAutoComplete">
+                  </a> <!-- UserCanSearchForAppleUsingAutoComplete -->
+                  <span class="method-name">UserCanSearchForAppleUsingAutoComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchForAsusUsingAutoComplete">
+                  </a> <!-- UserCanSearchForAsusUsingAutoComplete -->
+                  <span class="method-name">UserCanSearchForAsusUsingAutoComplete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAppleToComparison">
+                  </a> <!-- addAppleToComparison -->
+                  <span class="method-name">addAppleToComparison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAsusToComparison">
+                  </a> <!-- addAsusToComparison -->
+                  <span class="method-name">addAsusToComparison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeFromCompare">
+                  </a> <!-- removeFromCompare -->
+                  <span class="method-name">removeFromCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_regression_suite-class-passed -->
+          <div class="suite-nopcommerce_regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUs">
+                  </a> <!-- contactUs -->
+                  <span class="method-name">contactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_regression_suite-class-passed -->
+        </div> <!-- panel nopcommerce_regression_suite -->
+        <div panel-name="test-xml-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\ITI\Automation Projects\BankingSystem\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;nopcommerce regression suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ContactUsTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddProductToCompareTests&quot;/&gt;
+      &lt;class name=&quot;tests.SearchProductUsingAutoComplete&quot;/&gt;
+      &lt;class name=&quot;tests.WishListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- nopcommerce regression suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for nopcommerce regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for nopcommerce regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for nopcommerce regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_nopcommerce_regression_suite');
+function tableData_nopcommerce_regression_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UserCanSearchUsingAutoComplete')
+data.setCell(0, 2, 'tests.WishListTest')
+data.setCell(0, 3, 4791);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UserCanSearchUsingAutoComplete')
+data.setCell(1, 2, 'tests.SearchProductUsingAutoComplete')
+data.setCell(1, 3, 4691);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UserCanSearchForAppleUsingAutoComplete')
+data.setCell(2, 2, 'tests.AddProductToCompareTests')
+data.setCell(2, 3, 4009);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UserCanSearchForAsusUsingAutoComplete')
+data.setCell(3, 2, 'tests.AddProductToCompareTests')
+data.setCell(3, 3, 3903);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addAsusToComparison')
+data.setCell(4, 2, 'tests.AddProductToCompareTests')
+data.setCell(4, 3, 3042);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'AddToWishList')
+data.setCell(5, 2, 'tests.WishListTest')
+data.setCell(5, 3, 2463);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'contactUs')
+data.setCell(6, 2, 'tests.ContactUsTest')
+data.setCell(6, 3, 2388);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'removeFromCompare')
+data.setCell(7, 2, 'tests.AddProductToCompareTests')
+data.setCell(7, 3, 1006);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'removeProductFromWishList')
+data.setCell(8, 2, 'tests.WishListTest')
+data.setCell(8, 3, 636);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addAppleToComparison')
+data.setCell(9, 2, 'tests.AddProductToCompareTests')
+data.setCell(9, 3, 146);
+window.suiteTableData['nopcommerce_regression_suite']= { tableData: data, tableDiv: 'times-div-nopcommerce_regression_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-nopcommerce_regression_suite">
+              </div> <!-- times-div-nopcommerce_regression_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for nopcommerce regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.WishListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SearchProductUsingAutoComplete</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddProductToCompareTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-nopcommerce_regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">contactUs</span>
+                <span class="method-start">6314 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=contactUs status=SUCCESS method=ContactUsTest.contactUs()[pri:0, instance:tests.Con...)</span>
+                <span class="method-start">8704 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToCompareTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchForAppleUsingAutoComplete</span>
+                <span class="method-start">8709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=UserCanSearchForAppleUsingAutoComplete status=SUCCESS method=AddProductToCompareTes...)</span>
+                <span class="method-start">12718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addAppleToComparison</span>
+                <span class="method-start">12721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=addAppleToComparison status=SUCCESS method=AddProductToCompareTests.addAppleToCompa...)</span>
+                <span class="method-start">12868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchForAsusUsingAutoComplete</span>
+                <span class="method-start">12869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=UserCanSearchForAsusUsingAutoComplete status=SUCCESS method=AddProductToCompareTest...)</span>
+                <span class="method-start">16773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addAsusToComparison</span>
+                <span class="method-start">16774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=addAsusToComparison status=SUCCESS method=AddProductToCompareTests.addAsusToCompari...)</span>
+                <span class="method-start">19816 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">removeFromCompare</span>
+                <span class="method-start">19818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=removeFromCompare status=SUCCESS method=AddProductToCompareTests.removeFromCompare(...)</span>
+                <span class="method-start">20824 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductUsingAutoComplete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchUsingAutoComplete</span>
+                <span class="method-start">20825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=UserCanSearchUsingAutoComplete status=SUCCESS method=SearchProductUsingAutoComplete...)</span>
+                <span class="method-start">25516 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.WishListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchUsingAutoComplete</span>
+                <span class="method-start">25517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=UserCanSearchUsingAutoComplete status=SUCCESS method=WishListTest.UserCanSearchUsin...)</span>
+                <span class="method-start">30309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">AddToWishList</span>
+                <span class="method-start">30310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=AddToWishList status=SUCCESS method=WishListTest.AddToWishList()[pri:0, instance:te...)</span>
+                <span class="method-start">32773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromWishList</span>
+                <span class="method-start">32774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">saveFailedTest([TestResult name=removeProductFromWishList status=SUCCESS method=WishListTest.removeProductFromWishL...)</span>
+                <span class="method-start">33410 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

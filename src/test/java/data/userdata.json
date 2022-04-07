@@ -1,0 +1,17 @@
+[
+  {
+    "firstname": "saad",
+    "lastname": "hamdy",
+    "email": "swt@iti.com",
+    "password": "1234567",
+    "confirm": "1234567"
+
+  },
+  {
+    "firstname": "saad",
+    "lastname": "hamdy",
+    "email": "swtest@iti.com",
+    "password": "1234567",
+    "confirm": "1234567"
+  }
+]

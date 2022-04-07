@@ -1,0 +1,14 @@
+pages\BasePage.class
+pages\SearchResultPage.class
+pages\LoginPage.class
+pages\WishListPage.class
+pages\HomePage.class
+pages\UserRegisterationPage.class
+pages\ContacUSPage.class
+pages\ProductDerailsPage.class
+pages\ComparePage.class
+pages\SearchPage.class
+org\example\App.class
+pages\AddReviewPage.class
+pages\EmailFriendPage.class
+pages\MyAccountPage.class

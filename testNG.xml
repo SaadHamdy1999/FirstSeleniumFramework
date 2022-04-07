@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="nopcommerce regression suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Regression Test" preserve-order="true">
+        <classes>
+
+            <class name="tests.ContactUsTest"/>
+            <class name="tests.AddProductToCompareTests"/>
+            <class name="tests.SearchProductUsingAutoComplete"/>
+            <class name="tests.WishListTest"/>
+            <class name="tests.AddReviewTest"/>
+            <class name="tests.ChangCurrencyTest"/>
+            <class name="tests.EmailFriendTest"/>
+            <class name="tests.MyAccountTests"/>
+            <class name="tests.ProductHoverTest"/>
+            <class name="tests.SearchProductTest"/>
+        </classes>
+    </test>
+</suite>
