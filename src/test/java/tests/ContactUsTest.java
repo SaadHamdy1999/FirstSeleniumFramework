@@ -10,7 +10,7 @@ public class ContactUsTest extends BaseTests {
     HomePage homeObj;
     ContacUSPage contactUsObj;
     String  name="saad";
-    String email="saad@saad.com";
+    String email="saaad@saaad.com";
     String inquiry="jjrwgbqwro;gnas;ivnfbip";
     @Test
     public void contactUs()
