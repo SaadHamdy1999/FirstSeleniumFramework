@@ -12,7 +12,7 @@ public class AddReviewTest extends BaseTests{
     SearchResultPage searchResultObj;
     ProductDerailsPage productDerailsObj;
     AddReviewPage addReviewObj;
-    String mail = "osoos@sad.com";
+    String mail = "ososssss@sad.com";
     String oldpass = "1234567";
     String productName = "Apple MacBook Pro 13-inch";
     String title="ss";
